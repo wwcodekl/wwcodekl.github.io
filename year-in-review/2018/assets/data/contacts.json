@@ -1,0 +1,22 @@
+[
+    {
+        "name": "facebook",
+        "url": "https://www.facebook.com/womenwhocodekl/",
+        "photo": "contact_facebook"
+    },
+    {
+        "name": "twitter",
+        "url": "https://twitter.com/WomenwhocodeKL",
+        "photo": "contact_twitter"
+    },
+    {
+        "name": "meetup",
+        "url": "https://www.meetup.com/Women-Who-Code-Kuala-Lumpur/",
+        "photo": "contact_meetup"
+    },
+    {
+        "name": "peatix",
+        "url": "https://wwcodekl.peatix.com/",
+        "photo": "contact_peatix"
+    }
+]

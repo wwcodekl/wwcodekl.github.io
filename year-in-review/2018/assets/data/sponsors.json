@@ -1,0 +1,66 @@
+[
+    {
+        "url": "https://www.microsoft.com/en-my",
+        "photo": "2_microsoft"
+    },
+    {
+        "url": "https://www.hellogold.com/about-us/",
+        "photo": "3_hellogold"
+    },
+    {
+        "url": "https://www.zalora.com.my/",
+        "photo": "4_zalora"
+    },
+    {
+        "url": "https://myfave.com/",
+        "photo": "5_fave"
+    },
+    {
+        "url": "https://www.randstad.com.my/",
+        "photo": "6_randstad"
+    },
+    {
+        "url": "https://www.mindvalley.com/",
+        "photo": "7_mindvalley"
+    },
+    {
+        "url": "https://co-labs.asia/",
+        "photo": "8_colabs"
+    },
+    {
+        "url": "https://www.nintex.com/",
+        "photo": "9_nintex"
+    },
+    {
+        "url": "http://juristech.net/juristech/",
+        "photo": "10_juristech"
+    },
+    {
+        "url": "https://www.rea-group.com/",
+        "photo": "11_REA"
+    },
+    {
+        "url": "https://www.iflix.com/",
+        "photo": "12_iflix"
+    },
+    {
+        "url": "https://nem.my/",
+        "photo": "13_nem"
+    },
+    {
+        "url": "https://www.moneylion.com.my/about/",
+        "photo": "14_moneylion"
+    },
+    {
+        "url": "https://www.monster.com.my/",
+        "photo": "15_monster"
+    },
+    {
+        "url": "https://pulsifi.me/",
+        "photo": "16_pulsifi"
+    },
+    {
+        "url": "https://www.exact.com/careers/location/malaysia/",
+        "photo": "1_exact"
+    }
+]

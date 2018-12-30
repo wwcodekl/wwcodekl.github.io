@@ -1,0 +1,144 @@
+[
+    {
+        "code": "05_freebsd",
+        "name": "FreeBSD Project and How To Become Part Of It",
+        "short": "FreeBSD",
+        "female": 40.0,
+        "male": 60.0,
+        "total": 45
+    },
+    {
+        "code": "13_ethereum",
+        "name": "Ethereum workshop: Creating Distributed Applications",
+        "short": "Ethereum workshop",
+        "female": 44.7,
+        "male": 55.3,
+        "total": 38
+    },
+    {
+        "code": "18_blockchain_use_cases",
+        "name": "Smart Contracts and Blockchain Use-Cases",
+        "short": "Smart Contracts",
+        "female": 51.6,
+        "male": 48.4,
+        "total": 62
+    },
+    {
+        "code": "16_health",
+        "name": "Health Tech - How to hack your own health with technology?",
+        "short": "Health Tech",
+        "female": 55.4,
+        "male": 44.6,
+        "total": 56
+    },
+    {
+        "code": "14_civictech",
+        "name": "Civic Tech - What is it and how do we contribute?",
+        "short": "Civic Tech",
+        "female": 55.6,
+        "male": 44.4,
+        "total": 36
+    },
+    {
+        "code": "09_dlt",
+        "name": "Blockchain and Distributed Ledger Technology",
+        "short": "DLT",
+        "female": 59.4,
+        "male": 40.6,
+        "total": 32
+    },
+    {
+        "code": "10_python4",
+        "name": "Python 104",
+        "short": "Python 104",
+        "female": 60.0,
+        "male": 40.0,
+        "total": 40
+    },
+    {
+        "code": "15_arduino",
+        "name": "Internet of Things (IoT) Arduino Workshop",
+        "short": "Arduino Workshop",
+        "female": 60.0,
+        "male": 40.0,
+        "total": 20
+    },
+    {
+        "code": "08_security",
+        "name": "The future of security and privacy with decentralised identity",
+        "short": "Security and Privacy",
+        "female": 60.4,
+        "male": 39.6,
+        "total": 53
+    },
+    {
+        "code": "11_agile",
+        "name": "Agile Series: What Lies Beyond the Code?",
+        "short": "Agile",
+        "female": 60.8,
+        "male": 39.2,
+        "total": 51
+    },
+    {
+        "code": "17_webpack",
+        "name": "Introduction to Webpack",
+        "short": "Webpack",
+        "female": 66.7,
+        "male": 33.3,
+        "total": 39
+    },
+    {
+        "code": "12_panel",
+        "name": "Career Choice Showdown: Technical vs Management",
+        "short": "Technical vs Management",
+        "female": 67.2,
+        "male": 32.8,
+        "total": 58
+    },
+    {
+        "code": "06_python2_3",
+        "name": "Python 102 & 103",
+        "short": "Python 102/103",
+        "female": 71.8,
+        "male": 28.2,
+        "total": 39
+    },
+    {
+        "code": "01_python1",
+        "name": "Python 101",
+        "short": "Python 101",
+        "female": 74.5,
+        "male": 25.5,
+        "total": 47
+    },
+    {
+        "code": "19_hoc",
+        "name": "Hour of Code",
+        "short": "Hour of Code",
+        "total": 54
+    },
+    {
+        "code": "07_datavis",
+        "name": "Data Visualization - This is what I do",
+        "short": "Data Visualization",
+        "total": 78
+    },
+    {
+        "code": "04_iwd",
+        "name": "International Women's Day - \"We are all wonder women\" Panel",
+        "short": "International Women's Day",
+        "total": 79
+    },
+    {
+        "code": "03_blockchain200",
+        "name": "Blockchain in 200 Lines of Code",
+        "short": "Blockchain",
+        "total": 53
+    },
+    {
+        "code": "02_scraping",
+        "name": "Web Scraping with Python",
+        "short": "Web Scraping",
+        "total": 41
+    }
+]
