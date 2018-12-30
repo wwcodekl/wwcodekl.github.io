@@ -42,98 +42,142 @@ const events = [
         name: "FreeBSD Project and How To Become Part Of It",
         shortname: "FreeBSD",
         female: 40.0,
-        male: 60.0
+        male: 60.0,
+        total: 45
     },
     {
         code: "13_ethereum",
         name: "Ethereum workshop: Creating Distributed Applications",
         shortname: "Ethereum workshop",
         female: 44.7,
-        male: 55.3
+        male: 55.3,
+        total: 38
     },
     {
         code: "18_blockchain_use_cases",
         name: "Smart Contracts and Blockchain Use-Cases",
         shortname: "Smart Contracts",
         female: 51.6,
-        male: 48.4
+        male: 48.4,
+        total: 62
     },
     {
         code: "16_health",
         name: "Health Tech - How to hack your own health with technology?",
         shortname: "Health Tech",
         female: 55.4,
-        male: 44.6
+        male: 44.6,
+        total: 56
     },
     {
         code: "14_civictech",
         name: "Civic Tech - What is it and how do we contribute?",
         shortname: "Civic Tech",
         female: 55.6,
-        male: 44.4
+        male: 44.4,
+        total: 36
     },
     {
         code: "9_dlt",
         name: "Blockchain and Distributed Ledger Technology",
         shortname: "DLT",
         female: 59.4,
-        male: 40.6
+        male: 40.6,
+        total: 32
     },
     {
         code: "10_python4",
         name: "Python 104",
         shortname: "Python 104",
         female: 60.0,
-        male: 40.0
+        male: 40.0,
+        total: 40
     },
     {
         code: "15_arduino",
         name: "Internet of Things (IoT) Arduino Workshop",
         shortname: "Arduino Workshop",
         female: 60.0,
-        male: 40.0
+        male: 40.0,
+        total: 20
     },
     {
         code: "8_security",
         name: "The future of security and privacy with decentralised identity",
         shortname: "Security and Privacy",
         female: 60.4,
-        male: 39.6
+        male: 39.6,
+        total: 53
     },
     {
         code: "11_agile",
         name: "Agile Series: What Lies Beyond the Code?",
         shortname: "Agile",
         female: 60.8,
-        male: 39.2
+        male: 39.2,
+        total: 51
     },
     {
         code: "17_webpack",
         name: "Introduction to Webpack",
         shortname: "Webpack",
         female: 66.7,
-        male: 33.3
+        male: 33.3,
+        total: 39
     },
     {
         code: "12_panel",
         name: "Career Choice Showdown: Technical vs Management",
         shortname: "Technical vs Management",
         female: 67.2,
-        male: 32.8
+        male: 32.8,
+        total: 58
     },
     {
         code: "6_python2_3",
         name: "Python 102 & 103",
         shortname: "Python 102/103",
         female: 71.8,
-        male: 28.2
+        male: 28.2,
+        total: 39
     },
     {
         code: "1_python1",
         name: "Python 101",
         shortname: "Python 101",
         female: 74.5,
-        male: 25.5
+        male: 25.5,
+        total: 47
+    },
+    {
+        code: "19_hoc",
+        name: "Hour of Code",
+        shortname: "Hour of Code",
+        total: 54
+    },
+    {
+        code: "7_datavis",
+        name: "Data Visualization - This is what I do",
+        shortname: "Data Visualization",
+        total: 78
+    },
+    {
+        code: "4_iwd",
+        name: "International Women's Day - \"We are all wonder women\" Panel",
+        shortname: "International Women's Day",
+        total: 79
+    },
+    {
+        code: "3_blockchain200",
+        name: "Blockchain in 200 Lines of Code",
+        shortname: "Blockchain",
+        total: 53
+    },
+    {
+        code: "2_scraping",
+        name: "Web Scraping with Python",
+        shortname: "Web Scraping",
+        total: 41
     }
 ];
 
