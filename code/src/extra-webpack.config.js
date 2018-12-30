@@ -8,7 +8,7 @@ module.exports = {
     plugins: [
         new PrerenderSPAPlugin({
             // Required - The path to the webpack-outputted app to prerender.
-            staticDir: path.join(__dirname, '../dist/year-in-review'),
+            staticDir: path.join(__dirname, '../../year-in-review/2018'),
             // Required - Routes to render.
             routes: ['/'],
         })

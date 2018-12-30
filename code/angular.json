@@ -20,7 +20,8 @@
             "customWebpackConfig": {
               "path": "src/extra-webpack.config.js"
             },
-            "outputPath": "dist/year-in-review",
+            "baseHref": "/2018/",
+            "outputPath": "../year-in-review/2018",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
