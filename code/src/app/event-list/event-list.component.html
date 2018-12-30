@@ -1,0 +1,11 @@
+<div class="event-list">
+  <div *ngFor="let event of events" class="event-item" 
+    [class.event-item-visible]="event.id === selected"
+    (click)="nextImage()">
+      <img [src]="event.photo" class="event-image">
+      <div class="event-item-caption">
+          <p>{{ event.when }} @ {{ event.where }}</p>
+          <h4>{{ event.what | titlecase }}</h4>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="contact-list">
+    <a class="contact-item" *ngFor="let c of contacts" 
+      [href]="c.url" target="_blank">
+      <img [src]="c.photo" alt="contact">
+      <!-- <span>{{c.name}}</span> -->
+    </a>
+</div>
