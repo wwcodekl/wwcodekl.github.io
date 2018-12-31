@@ -1,0 +1,6 @@
+<div class="feature-list">
+  <a *ngFor="let f of features" [href]="f.url" class="feature-item" target="_blank">
+    <img [src]="f.photo">
+    <p>{{ f.name }}</p>
+  </a>
+</div>

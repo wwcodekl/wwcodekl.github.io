@@ -6,6 +6,7 @@ import { EventListComponent } from './event-list/event-list.component';
 import { SponsorListComponent } from './sponsor-list/sponsor-list.component';
 import { HelperListComponent } from './helper-list/helper-list.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
+import { FeatureListComponent } from './feature-list/feature-list.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ContactListComponent } from './contact-list/contact-list.component';
     SponsorListComponent,
     HelperListComponent,
     ContactListComponent,
+    FeatureListComponent,
   ],
   imports: [
     BrowserModule
