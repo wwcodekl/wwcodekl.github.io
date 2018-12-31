@@ -221,6 +221,12 @@ body {
   }
 }
 
+.hero-footer {
+  background: url('https://res.cloudinary.com/wwcodekl/image/upload/v1546247209/year_in_review_2018/others/footer_hero.png');
+  width: 100%;
+  height: 96vh;
+}
+
 @keyframes fadein {
   from { opacity: 0.5; }
   to   { opacity: 1; }
