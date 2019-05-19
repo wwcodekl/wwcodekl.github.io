@@ -1,0 +1,59 @@
+#sidebar {
+    width:25%;
+    border-right: 1px solid rgba(0, 128, 128, 0.479);
+    position: fixed;
+}
+
+#openMenuButton {
+    color: lightcyan;
+    border: none;
+    background: lightseagreen;
+    border-radius: 0px 10px 10px 0px;
+    top: 5px;
+    left: 0px;
+    position: fixed;
+    padding-top: 3px;
+
+    &:after {
+        content: "Topics";
+    }
+}
+
+#closeMenuButton {
+    color:  lightseagreen;
+    border: none;
+    position: absolute;
+    right: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#logo {
+    max-width: 150px;
+}
+
+#header {
+    font-size: 1.5rem !important;
+    letter-spacing: 0.3rem;
+}
+
+#sidebarHeader {
+    letter-spacing: 1px;
+}
+
+hr {
+    background: lightcyan;
+}
+
+.text-teal {
+    color:lightseagreen;
+}
+
+* {
+    font-size: 0.45rem !important; // because the markdown text is too huge!
+    font-family: 'Source Sans Pro', sans-serif;
+}
+

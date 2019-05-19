@@ -1,0 +1,31 @@
+<mat-sidenav-container>
+
+  <mat-sidenav id="sidebar" #sidebar mode="side" [(opened)]="opened" class="p-1">
+
+    <button #closeMenuButton id="closeMenuButton" (click)="toggleSidebar()">&times;</button>
+
+    <h2 id="sidebarHeader" class="text-center text-uppercase mt-3 mb-2 text-teal"><strong>Topics</strong></h2>
+
+    <div [innerHTML]="sections" (click)="toggleSidebar()"></div>
+
+  </mat-sidenav>
+
+  <mat-sidenav-content id="content" class="py-1 px-4">
+
+    <button #openMenuButton id="openMenuButton" (click)="toggleSidebar()"></button>
+
+    <div id="logo" class="m-auto">
+      <img src="app/images/wwcodekl.png" class="w-100">
+    </div>
+
+    <h1 id="header" class="text-center text-uppercase mb-2 text-teal">
+      wiki
+    </h1>
+
+    <hr class="mt-4 mb-5">
+
+    <markdown [src]="'app/pages/wiki.md'"></markdown>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

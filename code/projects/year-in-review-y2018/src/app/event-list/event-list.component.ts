@@ -12,7 +12,7 @@ export class EventListComponent implements OnInit, OnDestroy {
 
   private _destroy$ = new Subject();
   imageUrlPrefix = `https://res.cloudinary.com/wwcodekl/image/upload/c_thumb,g_face/v1546158928/year_in_review_2018/events/`;
-  events = (json as any[]).map((x, idx) => ({ ...x, id: idx+1, photo: this.imageUrlPrefix + x.photo + '.jpg' }));
+  events = (json as any[]).map((x, idx) => ({ ...x, id: idx + 1, photo: this.imageUrlPrefix + x.photo + '.jpg' }));
   max = this.events.length;
   selected = 1;
   constructor() { }

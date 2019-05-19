@@ -3,35 +3,29 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "year-in-review": {
-      "root": "",
-      "sourceRoot": "src",
+    "wiki": {
+      "root": "projects/wiki/",
+      "sourceRoot": "projects/wiki/src",
       "projectType": "application",
       "prefix": "app",
-      "schematics": {
-        "@schematics/angular:component": {
-          "styleext": "scss"
-        }
-      },
+      "schematics": {},
       "architect": {
         "build": {
-          "builder": "@angular-builders/custom-webpack:browser",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "customWebpackConfig": {
-              "path": "src/extra-webpack.config.js"
-            },
-            "baseHref": "/year-in-review/2018/",
-            "outputPath": "../year-in-review/2018",
-            "index": "src/index.html",
-            "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
-            "tsConfig": "src/tsconfig.app.json",
+            "outputPath": "dist/wiki",
+            "index": "projects/wiki/src/index.html",
+            "main": "projects/wiki/src/main.ts",
+            "polyfills": "projects/wiki/src/polyfills.ts",
+            "tsConfig": "projects/wiki/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "projects/wiki/src/favicon.ico",
+              "projects/wiki/src/assets",
+              "projects/wiki/src/app/pages/wiki.md",
+              "projects/wiki/src/app/images/wwcodekl.png"
             ],
             "styles": [
-              "src/styles.scss"
+              "projects/wiki/src/styles.scss"
             ],
             "scripts": []
           },
@@ -39,8 +33,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
+                  "replace": "projects/wiki/src/environments/environment.ts",
+                  "with": "projects/wiki/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -65,34 +59,34 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "year-in-review:build"
+            "browserTarget": "wiki:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "year-in-review:build:production"
+              "browserTarget": "wiki:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "year-in-review:build"
+            "browserTarget": "wiki:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
-            "tsConfig": "src/tsconfig.spec.json",
-            "karmaConfig": "src/karma.conf.js",
+            "main": "projects/wiki/src/test.ts",
+            "polyfills": "projects/wiki/src/polyfills.ts",
+            "tsConfig": "projects/wiki/tsconfig.spec.json",
+            "karmaConfig": "projects/wiki/karma.conf.js",
             "styles": [
-              "src/styles.scss"
+              "projects/wiki/src/styles.scss"
             ],
             "scripts": [],
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "projects/wiki/src/favicon.ico",
+              "projects/wiki/src/assets"
             ]
           }
         },
@@ -100,8 +94,107 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "src/tsconfig.app.json",
-              "src/tsconfig.spec.json"
+              "projects/wiki/tsconfig.app.json",
+              "projects/wiki/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "year-in-review-y2018": {
+      "root": "projects/year-in-review-y2018",
+      "sourceRoot": "projects/year-in-review-y2018/src",
+      "projectType": "application",
+      "prefix": "app",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/year-in-review-y2018",
+            "index": "projects/year-in-review-y2018/src/index.html",
+            "main": "projects/year-in-review-y2018/src/main.ts",
+            "polyfills": "projects/year-in-review-y2018/src/polyfills.ts",
+            "tsConfig": "projects/year-in-review-y2018/tsconfig.app.json",
+            "assets": [
+              "projects/year-in-review-y2018/src/favicon.ico",
+              "projects/year-in-review-y2018/src/assets"
+            ],
+            "styles": [
+              "projects/year-in-review-y2018/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/year-in-review-y2018/src/environments/environment.ts",
+                  "with": "projects/year-in-review-y2018/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "year-in-review-y2018:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "year-in-review-y2018:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "year-in-review-y2018:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/year-in-review-y2018/src/test.ts",
+            "polyfills": "projects/year-in-review-y2018/src/polyfills.ts",
+            "tsConfig": "projects/year-in-review-y2018/tsconfig.spec.json",
+            "karmaConfig": "projects/year-in-review-y2018/karma.conf.js",
+            "styles": [
+              "projects/year-in-review-y2018/src/styles.css"
+            ],
+            "scripts": [],
+            "assets": [
+              "projects/year-in-review-y2018/src/favicon.ico",
+              "projects/year-in-review-y2018/src/assets"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/year-in-review-y2018/tsconfig.app.json",
+              "projects/year-in-review-y2018/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -111,5 +204,5 @@
       }
     }
   },
-  "defaultProject": "year-in-review"
+  "defaultProject": "year-in-review-y2018"
 }
